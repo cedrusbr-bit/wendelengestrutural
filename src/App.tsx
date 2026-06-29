@@ -30,7 +30,12 @@ export default function App() {
         "/projeto-comercial_4.jpg",
         "/projeto-comercial_5.jpg",
         "/projeto-comercial_6.jpg",
-        "/projeto-comercial_7.jpg"
+        "/projeto-comercial_7.jpg",
+        "/projeto-comercial-8.jpg",
+        "/projeto-comercial-9.jpg",
+        "/projeto-comercial-10.jpg",
+        "/projeto-comercial-11.jpg",
+        "/projeto-comercial-12.jpg"
       ],
       fallback: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
       category: "Comercial"
