@@ -19,12 +19,11 @@ export default function App() {
 
   const projectsList = [
     {
-      title: "Edificação Comercial",
-      desc: "Engenharia robusta para suportar cargas comerciais, com detalhamento executivo ágil.",
+      title: "Sobrado de Alto Padrão com 275m²",
+      desc: "Engenharia robusta para suportar cargas com precisão, com detalhamento executivo ágil.",
       img: "/projeto-comercial.jpg",
       gallery: [
         "/projeto-comercial.jpg",
-        "/projeto-comercial_1.jpg",
         "/projeto-comercial_2.jpg",
         "/projeto-comercial_3.jpg",
         "/projeto-comercial_4.jpg",
@@ -38,7 +37,7 @@ export default function App() {
         "/projeto-comercial-12.jpg"
       ],
       fallback: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
-      category: "Comercial"
+      category: "Residencial"
     },
     {
       title: "Sobrado de Alto Padrão 388m²",
@@ -67,6 +66,24 @@ export default function App() {
         "/projeto-comercial-predio-04-pavimentos-5.png"
       ],
       fallback: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+      category: "Comercial"
+    },
+    {
+      title: "Prédio de 08 Pavimentos",
+      desc: "Cálculo estrutural e detalhamento completo de armaduras para edifício de múltiplos pavimentos com alto desempenho e economia.",
+      img: "/Predio-8-pavimentos-1.png",
+      gallery: [
+        "/Predio-8-pavimentos-1.png",
+        "/Predio-8-pavimentos-2.png",
+        "/Predio-8-pavimentos-3.png",
+        "/Predio-8-pavimentos-4.png",
+        "/Predio-8-pavimentos-5.png",
+        "/Predio-8-pavimentos-6.png",
+        "/Predio-8-pavimentos-7.png",
+        "/Predio-8-pavimentos-8.png",
+        "/Predio-8-pavimentos-9.png"
+      ],
+      fallback: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80",
       category: "Comercial"
     }
   ];
@@ -303,7 +320,7 @@ export default function App() {
                   {[
                     "Projetos em Concreto Armado", "Estruturas Metálicas",
                     "Laudos de Vistoria", "Reforço Estrutural",
-                    "Redução de Desperdícios", "Atendimento em todo o Brasil"
+                    "Muros de Contenção e Piscina", "Atendimento em todo o Brasil"
                   ].map((item, i) => (
                     <li key={i} className="flex items-center gap-3 font-medium text-gray-200">
                       <CheckCircle className="w-5 h-5 text-brand-primary shrink-0" /> {item}
